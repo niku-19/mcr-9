@@ -1,0 +1,22 @@
+.left__sidebar__container {
+  width: 20%;
+  height: 100vh;
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem 4rem;
+}
+
+.heading {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.active h1 {
+  color: #fff;
+}
+
+.notActive h1 {
+  color: #9f9f9f;
+}

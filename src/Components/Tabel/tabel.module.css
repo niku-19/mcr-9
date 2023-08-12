@@ -1,0 +1,37 @@
+.tabel__container {
+  width: 100%;
+  height: max-content;
+  padding: 1rem 1rem;
+}
+
+table {
+  width: 100%;
+  height: max-content;
+  border: 2px solid #000;
+}
+
+table,
+th,
+td {
+  text-align: center;
+}
+
+th {
+  background-color: rgb(235, 225, 225);
+  padding: 1rem 0rem;
+}
+
+td {
+  border-bottom: 2px solid #ccc;
+  padding: 1rem;
+}
+
+th {
+  cursor: pointer;
+}
+
+.product__image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}

@@ -1,0 +1,11 @@
+.product__listing__container {
+  width: 100%;
+  height: max-content;
+}
+
+.image {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}

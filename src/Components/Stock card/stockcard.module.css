@@ -1,0 +1,12 @@
+.card__container {
+  width: 20rem;
+  height: 10rem;
+  background-color: #ccc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

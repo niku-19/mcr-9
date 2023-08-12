@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./addProduct.module.css";
+import styles from "./addproduct.module.css";
 import { useProduct } from "../Context/Product.context";
 
 const AddProducts = () => {

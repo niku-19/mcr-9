@@ -5,13 +5,13 @@ import Layout from "./Components/Layout/Layout";
 import ProductPage from "./pages/ProductPage";
 import AddProducts from "./pages/AddProducts";
 import ProductListing from "./pages/Product Listing/ProductListing";
-import { inventoryData } from "./Data/inventoryData";
-import { useEffect } from "react";
+// import { inventoryData } from "./Data/inventoryData";
+// import { useEffect } from "react";
 
 function App() {
-  useEffect(() => {
-    localStorage.setItem("data", JSON.stringify(inventoryData));
-  }, []);
+  // useEffect(() => {
+  //   localStorage.setItem("data", JSON.stringify(inventoryData));
+  // }, []);
 
   return (
     <>

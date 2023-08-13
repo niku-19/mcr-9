@@ -1,3 +1,6 @@
+import { inventoryData } from "../Data/inventoryData";
+
+localStorage.setItem("data", JSON.stringify(inventoryData));
 const data = JSON.parse(localStorage.getItem("data"));
 const INITIAL__STATE = {
   productData: data,
